@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lego piece",
+    "price": 1200,
+    "_id": 1
+  },
+  {
+    "name": "Cryptocurrency",
+    "price": 2900,
+    "_id": 2
+  },
+  {
+    "name": "AirPods Pro",
+    "price": 300,
+    "_id": 3
+  },
+  {
+    "name": "CBD",
+    "price": 12,
+    "_id": 4
+  },
+  {
+    "name": "iPad Pro",
+    "price": 1200,
+    "_id": 5
+  },
+  {
+    "name": "Puma power t-shirt",
+    "price": 25,
+    "_id": 6
+  }
+]
