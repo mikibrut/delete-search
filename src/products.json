@@ -1,32 +1,38 @@
 [
   {
-    "name": "Lego piece",
-    "price": 1200,
+    "name": "Harry Potter Lego Hogwarts Express",
+    "price": 400,
+    "image": "https://www.lego.com/cdn/cs/set/assets/blt83f6220f6516afa9/76405.png",
     "_id": 1
   },
   {
     "name": "Cryptocurrency",
     "price": 2900,
+    "image": "https://www.nasdaq.com/sites/acquia.prod/files/2022/12/07/cryptocurrency-Nuthawut-adobe.jpeg",
     "_id": 2
   },
   {
     "name": "AirPods Pro",
     "price": 300,
+    "image": "https://images.macrumors.com/t/jeSIj6IH-yMuFn6CI44qwcc9Q4o=/800x0/smart/article-new/2019/10/airpods-pro-roundup.jpg",
     "_id": 3
   },
   {
-    "name": "CBD",
-    "price": 12,
+    "name": "Macbook Air",
+    "price": 1200,
+    "image": "https://expertreviews.b-cdn.net/sites/expertreviews/files/2022/08/m2_macbook_air_2022_review_0.jpg",
     "_id": 4
   },
   {
     "name": "iPad Pro",
     "price": 1200,
+    "image": "https://i2.wp.com/discountsqatar.com/wp-content/uploads/2020/04/Apple-iPad-Pro-12.9-2020.png",
     "_id": 5
   },
   {
-    "name": "Puma power t-shirt",
+    "name": "Dev tshirt",
     "price": 25,
+    "image": "https://cdn.shopify.com/s/files/1/0017/0432/9285/files/made4dev-coffee-to-code-tee.png",
     "_id": 6
   }
 ]

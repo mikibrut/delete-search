@@ -2,20 +2,46 @@ body {
   padding: 30px;
 }
 
-.cart h1 {
-  color: rgb(75, 122, 215);
+h1 {
+  color: rgb(80, 103, 149);
   text-align: center;
   margin-bottom: 40px;
 }
 
-.cart div {
+.cart {
+  padding: 20px;
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 20px;
-  align-items: center;
+}
+
+div.product_card {
+  background-color: rgb(240, 251, 255);
+  border-radius: 25px;
+  width: 45%;
+  padding: 20px;
+}
+
+div.product_card img {
+  max-width: 300px;
+  width: 100%;
 }
 
 .cart button {
   border: none;
   height: 30px;
+}
+
+@media (max-width: 976px) {
+  div.product_card {
+    width: 100%;
+  }
+
+  div.product_card img {
+    max-width: 500px;
+  }
+}
+
+.form_container input {
+  display: block;
 }
