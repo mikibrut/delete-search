@@ -1,25 +1,26 @@
 import React, { useState } from 'react'
 
-export default function AddProductForm() {
+export default function AddProductForm({handleNewProduct}) {
   const initialState = {
-    name: '',
-    image: '',
+    name: "",
+    image: "",
     price: 0
   }
   const [newProduct, setNewProduct] = useState(initialState);
 
   const handleChange = (e) => {
-    // ITERATION 4
-    // Update the state according to the corresponding input
-    console.log('Name of the input: ', e.target.name);
-    console.log('Name of the value: ', e.target.value);
+    setNewProduct(prev => {
+      return{
+        ...prev,
+        [e.target.name]: e.target.value
+      }
+    })
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // ITERATION 4
-    // Send the course info to the parent
-    // Restart the newProduct state to its initial value
+    handleNewProduct(newProduct);
+    setNewProduct(initialState);
   }
 
   return (

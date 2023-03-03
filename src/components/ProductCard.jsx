@@ -1,12 +1,11 @@
 import React from 'react'
 
-export default function ProductCard({ product }) {
+export default function ProductCard({ product, handleDelete }) {
 
   const { name, price, image, _id } = product;
 
   const handleProductDelete = () => {
-    // ITERATION 2
-    // Your code goes here
+    handleDelete(_id)
   }
 
   return (
